@@ -6,7 +6,7 @@ Hexter is coder/decoder ascii characters to base 16.
 > 
 > if not -> it will decode but the output-file will be empty.
 ```bash
-C-Compiler -o hex hex.c
+ C-Compiler -o hex hex.c
 ./hex [any-file] [file.hxt] # code
 ./hex [file.hxt] [any-file] # decode 
 ```
